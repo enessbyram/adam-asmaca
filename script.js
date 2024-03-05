@@ -11,7 +11,7 @@ const wrongLetters = []
 let selectedWord = getRandomWord()
 
 function getRandomWord() {
-    const words = ['javascript', 'java', 'python', 'css', 'html', 'react', 'frontend', 'backend', 'function']
+    const words = ['javascrıpt', 'java', 'python', 'css', 'html', 'react', 'frontend', 'backend', 'functıon']
 
     return words[Math.floor(Math.random() * words.length)]
 }
